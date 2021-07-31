@@ -41,10 +41,12 @@ async def async_setup(hass:HomeAssistant, config:Config):
                     name=user["username"],
                     is_owner=False,
                     is_active=True,
-                    system_generated=True,
+                    system_generated=False,
                     credentials=credentials,
                     group_ids=["system-users"]
                 )
+                
+                await auth_provider.async_add_auth(user["username"], user["password"])
             pass
 
     return True
