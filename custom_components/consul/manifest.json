@@ -1,0 +1,10 @@
+{
+  "domain": "users",
+  "name": "users",
+  "documentation": "https://github.com/jadson179/users",
+  "issue_tracker": "https://github.com/jadson179/users/issues",
+  "codeowners": ["@jadson179"],
+  "version": "2021.2.0",
+  "iot_class":"local_push"
+}
+
