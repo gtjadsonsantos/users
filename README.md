@@ -1,4 +1,4 @@
-# CONSUL
+# USERS
 
 This custom integration permits auto create your users for application
 
@@ -17,7 +17,6 @@ users:
         password: 123456789
 
 ```
-
 
 ## LICENSE 📝
 
