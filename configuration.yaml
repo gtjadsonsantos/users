@@ -4,4 +4,25 @@ homeassistant:
   name: Test Environment (Users) 
 
 users: 
-
+  list_users:
+      - username: 'financeiro'
+        password: 'financeiro' 
+      - username: 'portaria'
+        password: 'portaria' 
+      - username: 'rh'
+        password: 'rh' 
+      - username: 'compras'
+        password: 'compras' 
+      - username: 'engenharia'
+        password: 'engenharia' 
+      - username: 'contabilidade'
+        password: 'contabilidade' 
+      - username: 'aluguel'
+        password: 'aluguel' 
+      - username: 'diretoria'
+        password: 'diretoria' 
+      - username: 'comercial'
+        password: 'comercial' 
+      - username: 'advocacia'
+        password": 'advocacia' 
+    
