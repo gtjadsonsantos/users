@@ -4,7 +4,19 @@ This custom integration permits auto create your users for application
 
 ## GETTING STARTED
 
-Paste this property `users:` in your configuration file
+In your configuration file paste this example
+
+```yaml
+users: 
+  list_users:
+      - username: mother
+        password: 123456789
+      - username: father
+        password: 123456789
+      - username: child
+        password: 123456789
+
+```
 
 
 ## LICENSE 📝
